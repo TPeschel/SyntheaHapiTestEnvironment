@@ -45,9 +45,17 @@ $ ./create_patients.sh
 ```
 $ ./start_server.sh
 ```
+
 ### 4 Send Resources to Server
 This may take a lot of time.
 run only once:  
 ```
 $ ./send_resources_to_server.sh
+```
+
+### 5 Kill Server
+Find the process id and kill the process!  
+```
+$ lsof -i @localhost:8080
+$ kill <pid>
 ```
