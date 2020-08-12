@@ -37,7 +37,7 @@ Afterwards you should have 2 new directories and some new files in them.
 ```
 
 ### 2. Create Resources
-This may take a 10 to 30 minutes.  
+This may take 10 to 30 minutes.  
 Run only once!  
 ```
 $ ./create_resources.sh
