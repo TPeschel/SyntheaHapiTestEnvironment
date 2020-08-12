@@ -17,7 +17,6 @@
 ### 0. Make Shell Scripts executable 
 ```
 $ chmod +x *.sh
-$ ./download_and_install_software.sh
 ```
 
 ### 1. Download and extract Software
