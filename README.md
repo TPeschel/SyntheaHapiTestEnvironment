@@ -37,6 +37,8 @@ Afterwards you should have 2 new directories and some new files in them.
 ```
 
 ### 2. Create Resources
+This may take a lot of time.
+run only once:  
 ```
 $ ./create_resources.sh
 ```
