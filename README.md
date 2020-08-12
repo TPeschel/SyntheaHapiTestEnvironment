@@ -12,7 +12,7 @@
   - Download: https://github.com/synthetichealth/synthea/releases/download/master-branch-latest/synthea-with-dependencies.jar
 
 
-## Workflow
+## Workflow for Linux Systems
 
 ### 0. Make Shell Scripts executable 
 **Run only once!**
