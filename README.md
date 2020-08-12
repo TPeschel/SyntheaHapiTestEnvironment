@@ -21,7 +21,7 @@ $ chmod +x *.sh
 ```
 
 ### 1. Download and extract Software
-**Run only once!**
+**Run only once!**  
 This may take 5 to 20 minutes.
 ```
 $ ./download_and_extract_software.sh
