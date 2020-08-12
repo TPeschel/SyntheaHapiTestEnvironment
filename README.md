@@ -14,16 +14,16 @@
 
 ## Workflow
 
-### 0 Make Shell Scripts exectutable 
+### 0. Make Shell Scripts exectutable 
 ```
 $ chmod +x *.sh
 $ ./download_and_install_software.sh
 ```
 
-### 1 Install Software
+### 1. Download and extract Software
 ```
 $ chmod +x *.sh
-$ ./download_and_install_software.sh
+$ ./download_and_extract_software.sh
 ```
 Afterwards you should have 2 new directories and some new files in them.    
 ```
@@ -36,24 +36,24 @@ Afterwards you should have 2 new directories and some new files in them.
     └── synthea-with-dependencies.jar
 ```
 
-### 2 Create Resources
+### 2. Create Resources
 ```
-$ ./create_patients.sh
+$ ./create_resources.sh
 ```
 
-### 3 Start Server
+### 3. Start Server
 ```
 $ ./start_server.sh
 ```
 
-### 4 Send Resources to Server
+### 4. Send Resources to Server
 This may take a lot of time.
 run only once:  
 ```
 $ ./send_resources_to_server.sh
 ```
 
-### 5 When it is no longer needed kill the Server
+### 5. When it is no longer needed kill the Server
 Find the process id and kill the process!  
 ```
 $ lsof -i @localhost:8080
