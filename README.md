@@ -53,7 +53,7 @@ run only once:
 $ ./send_resources_to_server.sh
 ```
 
-### 5 Kill Server
+### 5 When it is no longer needed kill the Server
 Find the process id and kill the process!  
 ```
 $ lsof -i @localhost:8080
