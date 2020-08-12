@@ -21,7 +21,6 @@ $ chmod +x *.sh
 
 ### 1. Download and extract Software
 ```
-$ chmod +x *.sh
 $ ./download_and_extract_software.sh
 ```
 Afterwards you should have 2 new directories and some new files in them.    
