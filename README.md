@@ -14,7 +14,7 @@
 
 ## Workflow
 
-### 0. Make Shell Scripts exectutable 
+### 0. Make Shell Scripts executable 
 ```
 $ chmod +x *.sh
 $ ./download_and_install_software.sh
@@ -37,7 +37,7 @@ Afterwards you should have 2 new directories and some new files in them.
 ```
 
 ### 2. Create Resources
-This may take a lot of time.
+This may take a 10 to 30 minutes.
 run only once:  
 ```
 $ ./create_resources.sh
@@ -49,7 +49,7 @@ $ ./start_server.sh
 ```
 
 ### 4. Send Resources to Server
-This may take a lot of time.
+This may take 1 to 5 hours.
 run only once:  
 ```
 $ ./send_resources_to_server.sh
