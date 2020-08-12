@@ -42,7 +42,6 @@ $ ./create_patients.sh
 ```
 
 ### 3 Start Server
-run:
 ```
 $ ./start_server.sh
 ```
