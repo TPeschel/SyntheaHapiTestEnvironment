@@ -37,8 +37,8 @@ Afterwards you should have 2 new directories and some new files in them.
 ```
 
 ### 2. Create Resources
-This may take a 10 to 30 minutes.
-run only once:  
+This may take a 10 to 30 minutes.  
+Run only once!  
 ```
 $ ./create_resources.sh
 ```
@@ -49,8 +49,8 @@ $ ./start_server.sh
 ```
 
 ### 4. Send Resources to Server
-This may take 1 to 5 hours.
-run only once:  
+This may take 1 to 5 hours.  
+Run only once!  
 ```
 $ ./send_resources_to_server.sh
 ```
