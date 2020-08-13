@@ -74,4 +74,4 @@ Change into first shell where the server was started in and press *CTRL-c*
 
 If you restart your computer you only have to start the server again and
 you'll have a fix data set of 171 Patients with many related resources available via
-FHIR-Search on the [HL7-FHIR-R4-Endpoint](localhost:8080/baseR4 "localhost:8080/baseR4").
+FHIR-Search on the [HL7-FHIR-R4-Endpoint](http://localhost:8080/baseR4 "localhost:8080/baseR4").
