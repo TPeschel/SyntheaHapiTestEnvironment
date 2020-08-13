@@ -76,6 +76,6 @@ If you restart your computer you only have to start the server again and
 you'll have a fix data set of 171 Patients with many related resources available via
 FHIR-Search on the [HL7-FHIR-R4-Endpoint](http://localhost:8080/baseR4 "localhost:8080/baseR4").
 
-## Statistics of Data Base
+## Statistics of Data Base you'll have got
 
 ![count_all_resources_20200813034642.png](pix/count_all_resources_20200813034642.png "count_all_resources_20200813034642.png")
