@@ -14,13 +14,13 @@
 
 ## Workflow for Linux Systems
 
-### 0. Make Shell Scripts executable 
+### 0. Make Shell Scripts executable!
 **Run only once!**
 ```
 $ chmod +x *.sh
 ```
 
-### 1. Download and extract Software
+### 1. Download and extract Software!
 **Run only once!**  
 This may take 5 to 10 minutes.
 ```
@@ -37,24 +37,24 @@ Afterwards you should have 2 new directories and some new files in them.
     └── synthea-with-dependencies.jar
 ```
 
-### 2. Create Resources (171 Patients)
+### 2. Create Resources! (171 Patients)
 **Run only once!**  
 This may take about 1 minute.  
 ```
 $ ./create_resources.sh
 ```
 
-### 3. Start Server
+### 3. Start the Server!
 **Run whenever the server should get started!**  
 This may take about 1 minute.  
 ```
 $ ./start_server.sh
 ```
 
-### 4. Change into a new shell
+### 4. Change into a new shell!
 In most Terminals the shortcut *CTRL+T* aka *CTRL-SHIFT-t* will do the job.
 
-### 5. Send Resources to Server
+### 5. Send Resources to Server!
 **Run only once!**  
 *Caution !!!*  
 This may take 10 minutes to 1 hour.  
@@ -62,12 +62,12 @@ This may take 10 minutes to 1 hour.
 $ ./send_resources_to_server.sh
 ```
 
-### 6. Do whatever you want
+### 6. Do whatever you want!
   
 ...  
 
 ### N-th. When it is no longer needed kill the Server!
-Change into first shell where the server was started in and press *CTRL-c*
+Change into first shell where the server was started in and press *CTRL-c*!
 
 
 ## For now on
@@ -75,3 +75,7 @@ Change into first shell where the server was started in and press *CTRL-c*
 If you restart your computer you only have to start the server again and
 you'll have a fix data set of 171 Patients with many related resources available via
 FHIR-Search on the [HL7-FHIR-R4-Endpoint](http://localhost:8080/baseR4 "localhost:8080/baseR4").
+
+## Statistics of Data Base
+
+![count_all_resources_20200813034642.png](pix/count_all_resources_20200813034642.png "count_all_resources_20200813034642.png")
