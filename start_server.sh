@@ -1,1 +1,1 @@
-./hapi/hapi-fhir-cli run-server -v r4 &
+./hapi/hapi-fhir-cli run-server -v r4

@@ -1,9 +1,9 @@
 # SyntheaHapiTestEnvironment
-### Environment for Tests with Synthea and a local Hapi-Server
+### Environment for Tests with Synthea and a local HAPI-FHIR-Server
 
 ## Sources:
 
-### Hapi-Server-CLI
+### HAPI-FHIR-Server-CLI
   - Documentation: https://hapifhir.io/hapi-fhir/docs/tools/hapi_fhir_cli.html  
   - Download: https://github.com/jamesagnew/hapi-fhir/releases
 
@@ -22,7 +22,7 @@ $ chmod +x *.sh
 
 ### 1. Download and extract Software
 **Run only once!**  
-This may take 5 to 20 minutes.
+This may take 5 to 10 minutes.
 ```
 $ ./download_and_extract_software.sh
 ```
@@ -37,29 +37,34 @@ Afterwards you should have 2 new directories and some new files in them.
     └── synthea-with-dependencies.jar
 ```
 
-### 2. Create Resources
+### 2. Create Resources (171 Patients)
 **Run only once!**  
-This may take 10 to 30 minutes.  
+This may take about 1 minute.  
 ```
 $ ./create_resources.sh
 ```
 
 ### 3. Start Server
 **Run whenever the server should get started!**
+This may take about 1 minute.  
 ```
 $ ./start_server.sh
 ```
 
-### 4. Send Resources to Server
+### 5. Change into a new shell
+In most Terminals the shortcut *CTRL+T* aka *CTRL-SHIFT-t* will do the job.
+
+### 6. Send Resources to Server
 **Run only once!**  
-This may take 1 to 5 hours.  
+*Caution !!!*     
+This may take 10 min to 1 hour.  
 ```
 $ ./send_resources_to_server.sh
 ```
 
-### When it is no longer needed kill the Server
-Find the process id and kill the process!  
-```
-$ lsof -i @localhost:8080
-$ kill <pid>
-```
+### 7. Do whatever you want
+  
+...  
+
+### N-th. When it is no longer needed kill the Server!
+Change into first shell where the server was started in and press *CTRL-c*
