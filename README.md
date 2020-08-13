@@ -45,7 +45,7 @@ $ ./create_resources.sh
 ```
 
 ### 3. Start Server
-**Run whenever the server should get started!**
+**Run whenever the server should get started!**  
 This may take about 1 minute.  
 ```
 $ ./start_server.sh
@@ -56,8 +56,8 @@ In most Terminals the shortcut *CTRL+T* aka *CTRL-SHIFT-t* will do the job.
 
 ### 6. Send Resources to Server
 **Run only once!**  
-*Caution !!!*     
-This may take 10 min to 1 hour.  
+*Caution !!!*  
+This may take 10 minutes to 1 hour.  
 ```
 $ ./send_resources_to_server.sh
 ```
