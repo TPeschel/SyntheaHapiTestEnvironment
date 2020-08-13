@@ -51,10 +51,10 @@ This may take about 1 minute.
 $ ./start_server.sh
 ```
 
-### 5. Change into a new shell
+### 4. Change into a new shell
 In most Terminals the shortcut *CTRL+T* aka *CTRL-SHIFT-t* will do the job.
 
-### 6. Send Resources to Server
+### 5. Send Resources to Server
 **Run only once!**  
 *Caution !!!*  
 This may take 10 minutes to 1 hour.  
@@ -62,9 +62,16 @@ This may take 10 minutes to 1 hour.
 $ ./send_resources_to_server.sh
 ```
 
-### 7. Do whatever you want
+### 6. Do whatever you want
   
 ...  
 
 ### N-th. When it is no longer needed kill the Server!
 Change into first shell where the server was started in and press *CTRL-c*
+
+
+## For now on
+
+If you restart your computer you only have to start the server again and
+you'll have a fix data set of 171 Patients with many related resources available via
+FHIR-Search on the [HL7-FHIR-R4-Endpoint](localhost:8080/baseR4).
