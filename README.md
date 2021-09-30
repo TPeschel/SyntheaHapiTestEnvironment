@@ -37,12 +37,23 @@ This may take about 1 minute.
 ```
 $ ./create_resources.sh
 ```
-
+  
 ### 3. Start the Server!
 **Run whenever the server should get started!**  
 This may take about 1 minute.  
 ```
 $ ./start_server.sh
+```
+  
+### 4. Change into a new shell!
+In most Terminals the shortcut *CTRL+T* aka *CTRL-SHIFT-t* will do the job.
+  
+### 5. Send Resources to Server!
+**Run only once!**  
+*Caution !!!*  
+This may take 10 minutes to 1 hour.  
+```
+$ ./send_resources_to_server.sh
 ```
 
 ## From now on
@@ -52,27 +63,14 @@ you'll have a fix data set of 171 Patients with many related resources available
 FHIR-Search at localhost:8080/baseR4.
 
 A Web-Tool is also provided and accessible under [localhost:8080](http://localhost:8080).
-
-
-### 4. Change into a new shell!
-In most Terminals the shortcut *CTRL+T* aka *CTRL-SHIFT-t* will do the job.
-
-### 5. Send Resources to Server!
-**Run only once!**  
-*Caution !!!*  
-This may take 10 minutes to 1 hour.  
-```
-$ ./send_resources_to_server.sh
-```
-
+  
 ### 6. Do whatever you want!
   
 ...  
 
 ### 7. When it is no longer needed kill the Server!
 Change into first shell where the server was started in and press *CTRL-c*!
-
-
+  
 ## Statistics of Data Base you'll have got
 
 ![count_all_resources_20200813034642.png](pix/count_all_resources_20200813034642.png "count_all_resources_20200813034642.png")
