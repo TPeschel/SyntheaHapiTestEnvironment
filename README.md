@@ -45,6 +45,13 @@ This may take about 1 minute.
 $ ./start_server.sh
 ```
 
+## From now on
+
+If you restart your computer you only have to start the server again and
+you'll have a fix data set of 171 Patients with many related resources available via
+FHIR-Search at [localhost:8080/baseR4](http://localhost:8080/baseR4).
+
+
 ### 4. Change into a new shell!
 In most Terminals the shortcut *CTRL+T* aka *CTRL-SHIFT-t* will do the job.
 
@@ -60,15 +67,9 @@ $ ./send_resources_to_server.sh
   
 ...  
 
-### N-th. When it is no longer needed kill the Server!
+### 7. When it is no longer needed kill the Server!
 Change into first shell where the server was started in and press *CTRL-c*!
 
-
-## For now on
-
-If you restart your computer you only have to start the server again and
-you'll have a fix data set of 171 Patients with many related resources available via
-FHIR-Search at [localhost:8080/baseR4](http://localhost:8080/baseR4).
 
 ## Statistics of Data Base you'll have got
 
