@@ -49,7 +49,9 @@ $ ./start_server.sh
 
 If you restart your computer you only have to start the server again and
 you'll have a fix data set of 171 Patients with many related resources available via
-FHIR-Search at [localhost:8080/baseR4](http://localhost:8080/baseR4).
+FHIR-Search at localhost:8080/baseR4.
+
+A Web-Tool is also provided and accessible under [localhost:8080](http://localhost:8080).
 
 
 ### 4. Change into a new shell!
