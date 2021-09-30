@@ -14,12 +14,6 @@
 
 ## Workflow for Linux Systems
 
-### 0. Make Shell Scripts executable!
-**Run only once!**
-```
-$ chmod +x *.sh
-```
-
 ### 1. Download and extract Software!
 **Run only once!**  
 This may take 5 to 10 minutes.
